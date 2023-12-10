@@ -1,0 +1,2 @@
+#Here, you define variables related to the database servers, such as the PostgreSQL version.
+postgresql_version: "12"

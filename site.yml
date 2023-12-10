@@ -1,0 +1,11 @@
+- hosts: load_balancer
+  roles:
+    - load_balancer
+
+- hosts: webservers
+  roles:
+    - web_server
+
+- hosts: dbservers
+  roles:
+    - db_server

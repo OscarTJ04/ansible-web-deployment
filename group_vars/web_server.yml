@@ -1,0 +1,4 @@
+#These variables can include the port the web server listens on, the root directory for the web server, and the repository URL for the sample web application.
+webserver_port: 80
+webserver_root: "/var/www/html"
+sample_app_git_repo: "https://github.com/example/sample-app.git"

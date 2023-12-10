@@ -1,0 +1,14 @@
+#Set up a web server and deploy a sample application.
+---
+- name: Install Apache
+  apt:
+    name: apache2
+    state: present
+    update_cache: yes
+
+- name: Deploy sample web application
+  git:
+    repo: 'https://github.com/example/sample-app.git'
+    dest: /var/www/html
+    clone: yes
+    update: yes

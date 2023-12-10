@@ -1,0 +1,2 @@
+#define variables specific to the load balancing setup, like the user for Nginx.
+nginx_user: "nginx"
